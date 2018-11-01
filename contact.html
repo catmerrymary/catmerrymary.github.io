@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <link rel="icon" type="image" href="favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Main Page</title>
+    <title>Contact Style Page</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="murdstyle.css">
 </head>
 <body>
@@ -13,7 +12,7 @@
     <nav>
         <h2>Company Logo</h2>
         <ul id="navi">
-            <li><a href="murdindex.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="attorneys.html">Attorneys</a></li>
             <li><a href="resources.html">Resources</a></li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -22,29 +21,36 @@
     </nav>
     <header>
         <div><img src="anothertrypic.png" alt="office"></div>
-        <div><h2>The Saint Paul Law Office</h2>
-            <p>Just blocks north of Saint Paul;s Como Park & Zoo, the St. Paul Law Office is a collection of law firms.</p>
-            <p>
-                The office is centrally located between downtown Minneapolis and downtown Saint Paul, with free off-street parking available. The firm handles a wide variety of legal issues to meet your needs.  Please visit our profile page to learn more about the areas of practice.
-            </p>
-        </div>
+        <div><h2>The Saint Paul Law Offices</h2></div>
     </header>
-    <hr>
-    <main>
-        <div>
-            <h3>Product 1</h3>
-            <p>This is a nice description of something I know not what.This is a nice description of something I know not what. This is a nice description of something I know not what. This is a nice description of something I know not what</p>.
-        </div>
-        <div>
-            <h3>Product 2</h3>
-            <p>This is a second description of something I know not what.</p>
-        </div>
-        <div>
-            <h3>Product 3</h3>
-            <p>This is a third description of something I know not what.</p>
-        </div>
-    </main>
-
+<div class="form">
+    <div id="rev">
+        <h2>Lots of relevant resources</h2>
+        <p>I like relevant resources</p>
+    </div>
+    <div id="frm">
+        <h3>This is the form</h3>
+        <p>Bears name:<br>
+        bears address:<br>
+        Bears phone:<br>
+            Bears Fax<br>
+            Bears email
+        </p>
+        <h4>Contact Us</h4>
+        <form id="email_form" action="#" method="post">
+            <h4>All information is kept strictly confidential.</h4>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email"><br>
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Please leave a short description of how we can help you."></textarea><br>
+            <input type="submit" id="button" value="Submit"><br>
+            <h4>Our representative will contact you shortly.</h4>
+        </form>
+    </div>
+    <div id="map">google map of location</div>
+</div>
     <footer>
         <div>
             <nav>
